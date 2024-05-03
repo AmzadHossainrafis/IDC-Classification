@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: IDC-classification
+Version: 0.0.1
+Author: Amzad hossain rafi , Al musabbir rakin ,Afridy 
+Author-email: amzad.rafi@northsouth.edu
+License-File: LICENSEsetup.py
+Requires-Dist: mlflow
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: albumentations
+Requires-Dist: flask
+Requires-Dist: gunicorn
+Requires-Dist: tqdm

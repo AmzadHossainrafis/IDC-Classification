@@ -1,0 +1,10 @@
+mlflow 
+numpy 
+matplotlib 
+albumentations 
+flask 
+gunicorn
+tqdm 
+
+-e .
+

@@ -1,0 +1,67 @@
+train_config: 
+  batch_size: 32
+  epochs: 10
+  learning_rate: 0.001
+  optimizer: adam
+  loss: binary_crossentropy
+  metrics: [accuracy]
+  
+
+
+transform_config:
+  patch_size: 250
+
+
+model_config:
+  densnet_121: 
+    backbone: ImageNet 
+    epoch: 10
+    freeze_layers: 39 
+    activation: softmax 
+    loss : binary_crossentropy
+    lr: 0.0001
+    optimizer: SGD  
+    batch_size: 64 
+    learning_rate_mood : cylical_learning_rate
+
+
+  desnet_169:
+    backbone: ImageNet
+    epoch: 10
+    freeze_layers: 36
+    activation: softmax 
+    dropout: 0.5
+    loss : binary_crossentropy
+    lr: 0.0001
+    optimizer: SGD 
+    batch_size: 64 
+    learning_rate_mood : cylical_learning_rate
+
+
+
+  resnet50:
+    backbone: ImageNet
+    epoch: 10
+    freeze_layers: 41 
+    activation: softmax
+    loss: kullback_leibler_divergence
+    lr: 0.0001
+
+  resnet101:
+    backbone: ImageNet
+    epoch: 10
+    freeze_layers: 36
+    activation: softmax
+    loss: kullback_leibler_divergence
+    lr: 0.0001
+
+
+
+
+dir:
+  root: 
+  train_dir: 
+  test_dir: 
+  val_dir: 
+
+  
