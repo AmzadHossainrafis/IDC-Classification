@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Activate the conda environment
-source activate torch_env
+source conda activate torch_env
 # Run pip install
 pip install -e .
 # clean the terminal 
