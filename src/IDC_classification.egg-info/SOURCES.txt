@@ -1,4 +1,4 @@
-LICENSEsetup.py
+LICENSE
 README.md
 setup.py
 src/IDC/__init__.py

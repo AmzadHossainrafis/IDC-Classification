@@ -3,7 +3,7 @@ Name: IDC-classification
 Version: 0.0.1
 Author: Amzad hossain rafi , Al musabbir rakin ,Afridy 
 Author-email: amzad.rafi@northsouth.edu
-License-File: LICENSEsetup.py
+License-File: LICENSE
 Requires-Dist: mlflow
 Requires-Dist: numpy
 Requires-Dist: matplotlib
